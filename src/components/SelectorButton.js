@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 
-function SelectorButton() {
+function SelectorButton(props) {
 
     // ADULT BUTTONS 
 
@@ -22,6 +22,8 @@ function SelectorButton() {
 
     const handleChangeAdult = (e) => {
         setAdult(e.target.value);
+        console.log(e.target.value);
+        props.onAdultChange(e.target.value);
     }
 
     // CHILDREN BUTTONS 
@@ -44,6 +46,7 @@ function SelectorButton() {
 
     const handleChangeChild = (e) => {
         setChild(e.target.value);
+        props.onChildChange(e.target.value);
     }
 
 

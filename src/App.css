@@ -49,6 +49,12 @@ hr{
     flex-direction: column;
 }
 
+.HotelRating{
+    display: flex;
+    margin-left: 30px;
+    justify-content: flex-end;
+}
+
  /* HOTEL IMAGE CARD CONTAINER  */
 
 .img-card{
@@ -67,12 +73,6 @@ hr{
 
 .carousel-item{
   height: 90% !important;
-}
-
-.HotelRating{
-    display: flex;
-    margin-left: 30px;
-    justify-content: flex-end;
 }
 
 

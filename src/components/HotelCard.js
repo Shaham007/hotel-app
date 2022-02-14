@@ -68,10 +68,10 @@ class HotelCard extends Component {
                             </div>
                             <div className="HotelRating">
                                 {Array.from({ length: details.starRating }, () =>
-                                    <i className="fas fa-star hotelRoom-star"></i>
+                                    <i className="fas fa-star hotelRoom-star" ></i>
                                 )}
                                 {Array.from({ length: (5-details.starRating) }, () =>
-                                    <i className="fas fa-star "></i>
+                                    <i className="fas fa-star " ></i>
                                 )}
                             </div>
                         </div>
